@@ -4,8 +4,16 @@ katz_deli = []
 
 
 def line(array)
-  "The line is currently empty."
-return katz_deli  
+    if array.count == 0
+      puts "The line is currently empty."
+   else
+      respond = "The line is currently:"
+      array.each_with_index do |name, index|
+         respond += " #{index+1}. #{name}" 
+   end
+   puts respond
+   end
+end 
 end  
 
 
