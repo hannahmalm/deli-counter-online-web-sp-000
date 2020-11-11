@@ -26,7 +26,7 @@ def take_a_number(array, name)
 end  
 
 
-def now_serving(array,name)
+def now_serving(array)
   #when there is noone currently being served (aka == 0), puts that noone is waiting
      if array.count == 0
       puts "There is nobody waiting to be served!"
