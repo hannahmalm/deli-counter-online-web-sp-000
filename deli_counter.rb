@@ -19,7 +19,9 @@ end
 
 
 def take_a_number(array, name)
+  #this is pushing the name to the end of the line
    array.push(name)
+  #array.length is how long the line is  
    puts "Welcome, #{name}. You are number #{array.length} in line."
 end  
 
