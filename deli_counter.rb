@@ -26,12 +26,12 @@ def take_a_number(array, name)
 end  
 
 
-def now_serving(array, name)
+def now_serving(array,name)
   #when there is noone currently being served (aka == 0), puts that noone is waiting
      if array.count == 0
       puts "There is nobody waiting to be served!"
    else
-  #using the .shift method removes the first item from the array - thus it is currently serving the next up in the array   
+  #using the .shift method removes the first item from the array - thus it is currently serving the next up in the array and then will remove them from the queue
       puts "Currently serving #{array.shift}."
    end
 end  
