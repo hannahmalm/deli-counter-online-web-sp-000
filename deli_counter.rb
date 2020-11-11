@@ -27,9 +27,11 @@ end
 
 
 def now_serving(array, name)
+  #when there is noone currently being served (aka == 0), puts that noone is waiting
      if array.count == 0
       puts "There is nobody waiting to be served!"
    else
+     
       puts "Currently serving #{array.shift}."
    end
 end  
