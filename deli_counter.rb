@@ -31,7 +31,7 @@ def now_serving(array, name)
      if array.count == 0
       puts "There is nobody waiting to be served!"
    else
-     
+  #using the .shift method removes the first item from the array - thus it is currently serving the next up in the array   
       puts "Currently serving #{array.shift}."
    end
 end  
