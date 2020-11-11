@@ -1,7 +1,9 @@
 # Write your code here.
 
-def line(array)
 katz_deli = []
+
+
+def line(array)
   "The line is currently empty."
 return katz_deli  
 end  
